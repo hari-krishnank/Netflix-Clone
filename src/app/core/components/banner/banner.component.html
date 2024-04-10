@@ -1,0 +1,20 @@
+<iframe class="w-full h-full absolute" [src]="videoUrl" frameborder="0"></iframe>
+
+<div class="h-screen bg-white">
+    <div class="pt-[20%] px-24 absolute h-full text-white bg-gradient-to-r from-black">
+        <h1 class="text-6xl font-bold">{{bannerTitle}}</h1>
+        <p class="inline-block py-6 text-xl w-1/4 flex-wrap">{{bannerOverview}}</p>
+    <div class="flex">
+        <button class="flex items-center bg-white text-black py-4 px-12 text-xl rounded-lg hover:bg-opacity-70 transition-[ls]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M8 5v10l7-5-7-5z" clip-rule="evenodd" />
+            </svg>
+            <span>Play</span>
+        </button>
+        
+        <button class="mx-2 bg-gray-500 text-white px-12 py-4 text-xl bg-opacity-50 rounded-lg">
+            More Info
+        </button>
+    </div>
+    </div>
+</div>
